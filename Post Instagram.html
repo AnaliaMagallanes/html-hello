@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/ff4dd13c5d.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+     body {
+      display: flex;
+      justify-content: center;
+      background-color: black;
+    }
+
+    .padre {
+      display: flex;
+      background-color: white;
+      width: 400px;
+      flex-direction: column;
+      padding: 4px;
+      border: 1px solid black;
+    }
+    .titulo {
+      display: flex;
+      justify-content: space-between;
+    }
+    .numero,.elipssis {
+      font-size: 50px;
+    }
+    .html,.Rigoberto {
+      font-size: 20px;
+    }
+    .hijo1 {
+      display: flex;
+    }
+    .botones {
+      display: flex;
+      justify-content: space-between;
+    }
+    .imagen {
+      width: 100%;
+      height: 100%;
+    }
+    .foto {
+      height: 300px;
+      padding-bottom: 5px;
+    }
+    .fa-bookmark,
+    .opciones {
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="padre">
+    <div class="titulo">
+      <div class="hijo1">
+        <i class="fa-brands fa-html5 numero "></i>
+        <div>
+          <div class="html">HTML</div>
+          <div class="Rigoberto">Rigoberto</div>
+        </div>
+      </div>
+      <i class="fa-solid fa-ellipsis-vertical elipssis"></i>
+    </div>
+    <div class="foto">
+      <img class="imagen" src="https://picsum.photos/200/300" alt="">
+    </div>
+    <div class="botones">
+      <div class="opciones">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-regular fa-comment"></i>
+        <i class="fa-regular fa-paper-plane"></i>
+      </div>
+      <i class="fa-regular fa-bookmark"></i>
+    </div>
+    <div class="parrafos">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, fugiat.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit rerum suscipit similique aliquam mollitia, rem
+        iste cumque enim culpa sapiente est sequi. Pariatur ad, qui voluptas modi eveniet dolore quas.</p>
+    </div>
+  </div>
+</body>
+
+</html>
